@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Services Hamburger menu in mobile view</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav>
+        <div class="logo">Logo</div>
+
+        <!-- Hamburger Button placed right before .nav-links so the sibling selector (~) works 
+         instead of anicon I used span to look like the menu icon-->
+        <button class="hamburger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!-- Existing Nav Links (Transforms into slide-out menu on mobile when hamburger is focused) -->
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="user-profile">Username</div>
+
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <!-- Left Div -->
+        <div class="hero-left">
+            <h1>Revitalize Your<br>Clothes with Expert<br></h1>
+            <h2>Laundry Services!</h2>
+            <p>From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and
+                rediscover the freshness of your clothes today!</p>
+            <a href="#" class="btn-book">Book a service today!</a>
+        </div>
+        <!-- Right Div -->
+        <div class="hero-right">
+            <img src="https://media.istockphoto.com/id/1137138120/photo/photo-of-white-washing-machine-with-soft-and-fresh-bright-towels-on-top-standing-isolated.webp?a=1&b=1&s=612x612&w=0&k=20&c=NM7NdrjN62USl38qOJdCi8GQauFYjSYE6Xy2V4L7HtU="
+                alt="Laundry Services Illustration">
+        </div>
+    </section>
+</body>
+
+</html>
